@@ -1,0 +1,44 @@
+body {
+  background: url(./images/Minimalist\ Background_Wallpaper\ for\ PC.png);
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.box {
+  display: flex;
+  width: 500px;
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 20px;
+}
+h1 {
+  color: #3AA6B9 ;
+  font-size: 60px;
+  margin: 10px;
+  padding: 20px;
+  font-family: 'Lobster', cursive;
+}
+input {
+  margin: 12px;
+  padding: 8px;
+  width: 220px;
+  border-radius: 10px;
+}
+#btn{
+    background-color: #3AA6B9 ; 
+    color: white;
+    margin: 12px;
+    padding: 8px;
+    width: 240px;
+}
+#btn:hover{
+    background-color: #1d5c67 ;
+}
+
+
